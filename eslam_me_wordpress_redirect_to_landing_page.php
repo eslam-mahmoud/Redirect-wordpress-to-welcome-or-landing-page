@@ -170,7 +170,7 @@ echo '
 						<input type="text" id="cookie_time" name="cookie_time" value="'.get_option('eslam_me_wordpress_redirect_to_landing_page_cookie_time', '7').'"/>
 						<select name="cookie_time_type">
 							<option ' . (get_option('eslam_me_wordpress_redirect_to_landing_page_cookie_time_type', '')=='days'?'selected="selected"':'') . ' value="days">Days</option>
-							<option ' . (get_option('eslam_me_wordpress_redirect_to_landing_page_cookie_time_type', '')=='hours'?'selected="selected"':'') . ' value="minutes">Hours</option>
+							<option ' . (get_option('eslam_me_wordpress_redirect_to_landing_page_cookie_time_type', '')=='hours'?'selected="selected"':'') . ' value="hours">Hours</option>
 							<option ' . (get_option('eslam_me_wordpress_redirect_to_landing_page_cookie_time_type', '')=='minutes'?'selected="selected"':'') . ' value="minutes">Minutes</option>
 						</select>
 					</td>
